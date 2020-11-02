@@ -4,7 +4,7 @@
 The objective of this lab is to practice implementing UNIX file I/O functions such as open, read, write, and close.
 
 ## Description
-Implement a C program that takes two filenames as command-line arguments and concatenates the contents of the second file to the first file. The program should check if the two file names provided as command-line arguments are the same and print an error message. After the program executes successfully, the first file should now contain it's original content and the contents of the seconds file. The second file should be unchanged.
+Implement a C program that takes two filenames as command-line arguments and concatenates the contents of the second file to the first file. The program should check if the two file names provided as command-line arguments are the same and print an error message. After the program executes successfully, the first file should now contain it's original content and the contents of the seconds file. The second file should be unchanged. (This was moved over to Github from UAB's Gitlab)
 
 ## Setup
 To compile and run this program:
@@ -28,6 +28,7 @@ $ cat file2.txt
 Hello World! This is file two!
 $
 ```
+
 
 ## Sources
 
