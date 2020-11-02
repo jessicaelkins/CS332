@@ -1,0 +1,20 @@
+# Makefile for project2
+
+CC = gcc
+
+OBJS	= search.c
+
+EXECS	= search
+
+all:	$(EXECS)
+
+%.o:	%.c 
+	$(CC) -c -o $@ $<
+
+search:	$(OBJS)
+	$(CC) -o $@ $^
+
+clean:	
+	/bin/rm -i *.o $(EXECS)
+
+
